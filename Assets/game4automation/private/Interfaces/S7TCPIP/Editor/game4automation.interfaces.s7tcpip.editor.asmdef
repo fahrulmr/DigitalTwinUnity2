@@ -1,0 +1,17 @@
+{
+    "name": "game4automation.interfaces.s7tcpip.editor",
+    "references": [
+        "game4automation.interfaces.s7tcpip",
+        "game4automation.base"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

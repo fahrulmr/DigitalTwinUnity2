@@ -1,0 +1,20 @@
+  Game4Automation Parts4Cad for Unity
+  Copyright 2019 in2sight GmbH (https://game4automation.com)
+  
+  For more information about Game4Automation please check the documentation (https://game4automation.com/documentation/)
+
+  This solution is licensed under the Asset Store End User License Agreement which you can find under https://unity3d.com/de/legal/as_terms.
+  
+  This product includes software developed at in2sight GmbH (https://game4automation.com)
+  
+  This product bundles Parts4Cad, copyright 2019 by CADENAS GmbH.
+  For more information on Parts4Cad see https://www.cadenas.de/
+  
+  This product bundles NaughtyAttributes, copyright  2017 Denis Rizov,
+  which is available under MIT license.
+  For details see https://github.com/dbrizov/NaughtyAttributes
+  
+  This product bundles Ionic.Zip, copyright  Peter Dolkens,
+  which is available under Microsoft Public License (Ms-PL)
+  For details see https://www.nuget.org/packages/Ionic.Zip/
+          

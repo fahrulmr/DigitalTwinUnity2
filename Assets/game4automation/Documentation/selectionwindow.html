@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  <title>gam4automation DOC - SelectionWindow</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700" rel="stylesheet" type="text/css">
+  <link href="style/docs.css" rel="stylesheet">
+</head>
+<body>
+  <div class="menu">
+    <div class="logo">
+      Content
+    </div>
+    <nav class="menu-nav">
+      
+        <ul class="nav">
+          <span>Preparation</span>
+          <ul class="nav">
+            
+              <li>
+                <a href="installation.html">Installation</a>
+              </li>
+            
+              <li>
+                <a href="releasenotes.html">Release Notes</a>
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class="nav">
+          <span>Basics</span>
+          <ul class="nav">
+            
+              <li>
+                <a href="userinterface.html">User Interface</a>
+              </li>
+            
+              <li>
+                <a href="runtimeui.html">Runtime UI</a>
+              </li>
+            
+              <li>
+                <a href="folderstructure.html">structure</a>
+              </li>
+            
+              <li>
+                <a href="importexport.html">Importing and exporting</a>
+              </li>
+            
+              <li>
+                <a href="demomodel.html">Demo Model</a>
+              </li>
+            
+              <li>
+                <a href="tutorial.html">Tutorial</a>
+              </li>
+            
+              <li>
+                <a href="physics.html">Physics</a>
+              </li>
+            
+              <li>
+                <a href="import3ddata.html">CAD import</a>
+              </li>
+            
+              <li>
+                <a href="cadlink.html">CADLink</a>
+              </li>
+            
+              <li>
+                <a href="pixyz.html">Import with PIXZ</a>
+              </li>
+            
+              <li>
+                <a href="cadupdater.html">CADUpdater</a>
+              </li>
+            
+              <li>
+                <a href="LargeAssemblies.html">Large Assemblies</a>
+              </li>
+            
+              <li>
+                <a href="SelectionWindow.html">Selection Window</a>
+              </li>
+            
+              <li>
+                <a href="CADChecker.html">CAD Checker</a>
+              </li>
+            
+              <li>
+                <a href="parts4cad.html">parts4cad</a>
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class="nav">
+          <span>Components</span>
+          <ul class="nav">
+            
+              <li>
+                <a href="game4automation.html">Game4Automation</a>
+              </li>
+            
+              <li>
+                <a href="source.html">Source</a>
+              </li>
+            
+              <li>
+                <a href="sink.html">Sink</a>
+              </li>
+            
+              <li>
+                <a href="mu.html">MU</a>
+              </li>
+            
+              <li>
+                <a href="partchanger.html">PartChanger</a>
+              </li>
+            
+              <li>
+                <a href="motionaxis.html">Motions</a>
+              </li>
+            
+              <li>
+                <a href="group.html">Group</a>
+              </li>
+            
+              <li>
+                <a href="kinematic.html">Kinematics</a>
+              </li>
+            
+              <li>
+                <a href="drive.html">Drive</a>
+              </li>
+            
+              <li>
+                <a href="CAM.html">CAM</a>
+              </li>
+            
+              <li>
+                <a href="transportsurface.html">Transport Surface</a>
+              </li>
+            
+              <li>
+                <a href="drivebehaviour.html">Drive Behavior</a>
+              </li>
+            
+              <li>
+                <a href="chain.html">Chain</a>
+              </li>
+            
+              <li>
+                <a href="chainelement.html">Chain element</a>
+              </li>
+            
+              <li>
+                <a href="sensor.html">Sensor</a>
+              </li>
+            
+              <li>
+                <a href="sensor.html">Sensor</a>
+              </li>
+            
+              <li>
+                <a href="grip.html">Grip</a>
+              </li>
+            
+              <li>
+                <a href="lamp.html">Lamp</a>
+              </li>
+            
+              <li>
+                <a href="uicomponents.html">UI components</a>
+              </li>
+            
+              <li>
+                <a href="plc.html">PLC</a>
+              </li>
+            
+              <li>
+                <a href="interface.html">Automation Interfaces</a>
+              </li>
+            
+              <li>
+                <a href="s7tcpip.html">S7-TCPIP</a>
+              </li>
+            
+              <li>
+                <a href="twincat.html">TwinCAT</a>
+              </li>
+            
+              <li>
+                <a href="sharedmemory.html">Shared Memory</a>
+              </li>
+            
+              <li>
+                <a href="plcsimadvanced.html">PLCSIM Advanced</a>
+              </li>
+            
+              <li>
+                <a href="opcua.html">OPC UA</a>
+              </li>
+            
+              <li>
+                <a href="robodk.html">RoboDK</a>
+              </li>
+            
+              <li>
+                <a href="modbus.html">Modbus</a>
+              </li>
+            
+              <li>
+                <a href="custominterfaces.html">Custom interfaces</a>
+              </li>
+            
+              <li>
+                <a href="playmaker.html">Visual Scripting</a>
+              </li>
+            
+          </ul>
+        </ul>
+      
+        <ul class="nav">
+          <span>Advanced</span>
+          <ul class="nav">
+            
+              <li>
+                <a href="combilerdefines.html">Compiler Defines</a>
+              </li>
+            
+              <li>
+                <a href="assemblydefinitions.html">Assembly Defintions</a>
+              </li>
+            
+              <li>
+                <a href="yourown.html">Starting your own Project</a>
+              </li>
+            
+          </ul>
+        </ul>
+      
+    </nav>
+    <a class="footer" href="https://game4automation.com">
+      Game4Automation
+    </a>
+  </div>
+  <div class="page">
+   
+    <div class="page-content">
+	<p>This is the offline version of the documentation. We recommend you to use the <a href="https://game4automation.com/documentation/current/index.html">online documentation.</a></p>
+ <h1 id="Selection-Window-Pro-only"><a href="#Selection-Window-Pro-only" class="headerlink" title="Selection Window (Pro only)"></a>Selection Window (Pro only)</h1><p>The Selection Window is enabling a fast selection of components in the 3D assembly (game object) hierarchy. You can select components based on the visibility status, assign groups to components and view and hide groups.  You can find more information in the section below.</p>
+<p><strong>Opening the selection window</strong></p>
+<p>To open the Selection window please select <em>game4automation &gt; Selection window (Pro)</em> in the game4automation menu. This will open this window:</p>
+<img src="images\selectionwindow.png">
+<p><br><br><strong> Actions with ALL</strong><br>In the section “Actions with ALL” you can sop the suppression of all components or show all hidden components.</p>
+<p><strong> Selection </strong><br>It is important to know that there are two levels of selection. The first one is the normal Unity Selection (this means all highlighted objects in the hierarchy). You can save currently selected objects in a temporarily g4a selection by pushing <strong>Add selected</strong>. All actions that you are performing under <em>Actions with Selection</em> are performed on the Unity AND g4a selection.</p>
+<table>
+<thead>
+<tr>
+<th>Button</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Add selected</td>
+<td>Adds the selected components to the g4a selection</td>
+</tr>
+<tr>
+<td>To Unity selection</td>
+<td>Moves the g4a selection to the Unity selection</td>
+</tr>
+<tr>
+<td>Remove selected</td>
+<td>Removes the selected objects from the g4a selection</td>
+</tr>
+<tr>
+<td>Remove all</td>
+<td>Removes all objects from the g4a selection</td>
+</tr>
+<tr>
+<td>Select Invisible</td>
+<td>Selects all invisible objects</td>
+</tr>
+<tr>
+<td>Select Visible</td>
+<td>Selects all visible objects</td>
+</tr>
+<tr>
+<td>Select Unlocked</td>
+<td>Selects all unlocked objects</td>
+</tr>
+<tr>
+<td>Select Locked</td>
+<td>Selects all locked objects</td>
+</tr>
+<tr>
+<td>Select Layer</td>
+<td>Selects all objects on the defined layer</td>
+</tr>
+<tr>
+<td>Select Material</td>
+<td>Selects all objects with the defined material</td>
+</tr>
+</tbody>
+</table>
+<p><strong> Actions with selection </strong></p>
+<p>These are actions that you can perform with the selected objects. The actions are always performed for all objects in the current Unity and Game4Automation selection.</p>
+<table>
+<thead>
+<tr>
+<th>Button</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Assign Material</td>
+<td>Assigns the selected material</td>
+</tr>
+<tr>
+<td>Suppress children</td>
+<td>Suppresses all children components in the hierarchy view</td>
+</tr>
+<tr>
+<td>To new Parent</td>
+<td>Moves the components to the new (selected) parent</td>
+</tr>
+<tr>
+<td>Copy to empty Parent</td>
+<td>Makes a copy of the components and moves them to the new (selected) parent</td>
+</tr>
+<tr>
+<td>To Layer</td>
+<td>Moves the components to the defined layer</td>
+</tr>
+<tr>
+<td>Visible</td>
+<td>Makes the selected components visible</td>
+</tr>
+<tr>
+<td>Invisible</td>
+<td>Makes the selected components invisible</td>
+</tr>
+<tr>
+<td>Isolate</td>
+<td>Isolates the selected components (and makes the rest invisible)</td>
+</tr>
+<tr>
+<td>View all</td>
+<td>Stops the isolation and displays all components</td>
+</tr>
+<tr>
+<td>Lock</td>
+<td>Locks the components</td>
+</tr>
+<tr>
+<td>Unlocked</td>
+<td>Unlocks the components</td>
+</tr>
+<tr>
+<td>To Group</td>
+<td>Assigns the components to the defined group. If the group is not yet existing it is created.</td>
+</tr>
+<tr>
+<td>Remove Groups</td>
+<td>Removes all groups from the selected components</td>
+</tr>
+<tr>
+<td>Collapse same level</td>
+<td>Collapses all components to the same hierarchy level</td>
+</tr>
+<tr>
+<td>Expand same levels</td>
+<td>Expands all components to the same hierarchy level</td>
+</tr>
+<tr>
+<td>Pivot to origin</td>
+<td>Moves the pivot of the component to the origin of the defined component</td>
+</tr>
+<tr>
+<td>Pivot to center</td>
+<td>Moves the pivot of the component to the center of the defined component</td>
+</tr>
+<tr>
+<td>Static</td>
+<td>Makes the components static</td>
+</tr>
+<tr>
+<td>Movable</td>
+<td>Makes the components non-static (movable)</td>
+</tr>
+<tr>
+<td>Remove G4A scripts</td>
+<td>Removes all Game4Automation Scripts from the selected components</td>
+</tr>
+</tbody>
+</table>
+<p><strong> Groups </strong></p>
+<p>In the Group section, you can find all groups that are defined in the current model. </p>
+<table>
+<thead>
+<tr>
+<th>Button</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>+</td>
+<td>Adds the selected components to the Group</td>
+</tr>
+<tr>
+<td>-</td>
+<td>Removes the selected components from the Group</td>
+</tr>
+<tr>
+<td>Hide</td>
+<td>Hides all components which are currently belonging to the Group</td>
+</tr>
+<tr>
+<td>Show</td>
+<td>Shows all components currently belonging to the Group</td>
+</tr>
+</tbody>
+</table>
+
+	  <br>
+
+	  <p><font size="1">&copy; 2019 in2Sight GmbH <a href="https://game4automation.com"> https://game4automation.com </a> - All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including printing, saving, photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher.</font></p>
+    </div>
+	
+  </div>
+  <div class="switch-page">
+    
+    
+  </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+    "name": "game4automation.base",
+    "references": [
+        "game4automation.spacenavigator",
+        "game4automation.tools.naughtyattributes"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "Stadia",
+        "Switch"
+    ],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: fce6278fba430e849862fba4d3f1d5ce
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Base
+    100002: Brackets
+    100004: Caps
+    100006: Feet
+    100008: Feet_2
+    100010: GantryBase
+    100012: GantryBase_2
+    100014: GantryY
+    100016: GantryY_2
+    100018: GantryZ
+    100020: GantryZ_2
+    100022: Gripper
+    100024: Gripper_2
+    100026: //RootNode
+    100028: Left
+    100030: Left_2
+    100032: Profiles
+    100034: Right
+    100036: Right_2
+    400000: Base
+    400002: Brackets
+    400004: Caps
+    400006: Feet
+    400008: Feet_2
+    400010: GantryBase
+    400012: GantryBase_2
+    400014: GantryY
+    400016: GantryY_2
+    400018: GantryZ
+    400020: GantryZ_2
+    400022: Gripper
+    400024: Gripper_2
+    400026: //RootNode
+    400028: Left
+    400030: Left_2
+    400032: Profiles
+    400034: Right
+    400036: Right_2
+    2100000: Aluminium
+    2100002: PlasticBlack
+    2100004: AluminiumBrushed
+    2100006: Default_Material
+    2100008: PlasticBlack.2
+    2100010: PlasticBlue
+    2100012: PlasticRed
+    2100014: PlasticGray
+    2100016: AluminiumBrushed.3
+    2100018: Aluminium.1
+    2100020: PlasticBlue.2
+    2100022: PlasticBlack.5
+    2100024: No Name
+    2300000: Brackets
+    2300002: Caps
+    2300004: Feet_2
+    2300006: GantryBase_2
+    2300008: GantryY_2
+    2300010: GantryZ_2
+    2300012: Gripper_2
+    2300014: Left_2
+    2300016: Profiles
+    2300018: Right_2
+    3300000: Brackets
+    3300002: Caps
+    3300004: Feet_2
+    3300006: GantryBase_2
+    3300008: GantryY_2
+    3300010: GantryZ_2
+    3300012: Gripper_2
+    3300014: Left_2
+    3300016: Profiles
+    3300018: Right_2
+    4300000: Profiles
+    4300002: Caps
+    4300004: Brackets
+    4300006: Feet_2
+    4300008: GantryBase_2
+    4300010: GantryY_2
+    4300012: GantryZ_2
+    4300014: Gripper_2
+    4300016: Left_2
+    4300018: Right_2
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e105c707293c74449a78f5b860b32e5f, type: 3}
+  m_Name: CamPosDetail
+  m_EditorClassIdentifier: 
+  Description: 
+  CameraRot: {x: 31.143372, y: 123.30995, z: 0.03818199}
+  TargetPos: {x: 0.47435182, y: 0.47980517, z: -0.05096145}
+  CameraDistance: 1.58971

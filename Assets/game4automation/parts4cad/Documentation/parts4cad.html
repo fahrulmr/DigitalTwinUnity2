@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  <title>gam4automation DOC - parts4cad</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700" rel="stylesheet" type="text/css">
+  <link href="style/docsopcua.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="page">
+   
+    <div class="page-content">
+	<p>This is the offline version of the documentation. We recommend you to use the <a href="https://game4automation.com/documentation/current/index.html">online documentation.</a></p>
+ <h1 id="parts4cad-millions-of-industrial-3D-components-for-Unity"><a href="#parts4cad-millions-of-industrial-3D-components-for-Unity" class="headerlink" title="parts4cad - millions of industrial 3D components for Unity"></a>parts4cad - millions of industrial 3D components for Unity</h1><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>parts4cad offers access to millions of parametric 3D CAD models from over 500 parts catalogs for free. The original data of the manufacturers is based on the eCATALOGsolutions technology by CADENAS (<a href="https://www.cadenas.de/)" target="_blank" rel="noopener">https://www.cadenas.de/)</a>.<br>The data is imported into Unity as Collada. All imported parts are still connected to the CADENAS database so that you can change later on parameters and update the part in Unity.<br>parts4cad is a pure Unity Editor utility. </p>
+<blockquote>
+<p>Please note, that parts4cad requires the parts4cad client software. If you use parts4cad the first time the parts4cad client will be downloaded automatically into the StreamingAssets folder inside of your project. </p>
+</blockquote>
+<h2 id="Installation-and-first-usage"><a href="#Installation-and-first-usage" class="headerlink" title="Installation and first usage"></a>Installation and first usage</h2><p>After installing parts4cad from Unity’s Asset Store or after manual installation from an asset package you can start parts4cad by selecting game4automation&gt;CADENAS parts4cad in the main menu bar.<br><img src="images\parts4cad-menu.png"><br><br><br>If you use parts4cad the first time a message will ask you to allow the download of the parts4cad client to the StreamingAssets folder:<br><img src="images\parts4cad-message.png"></p>
+<p>After selecting OK it will take some while to download a ZIP-file with the client and to unzip it into the StreamingAssets folder of your project:<br><img src="images\parts4cad-install.png"></p>
+<h2 id="parts4cad-client"><a href="#parts4cad-client" class="headerlink" title="parts4cad client"></a>parts4cad client</h2><p>After installation the parts4cad client is started.<br><img src="images\parts4cad-client.png"></p>
+<p>You can now select a catalog from a provider or you use the search to search in all catalogs for a certain name or description of the wished part.<br><img src="images\parts4cad-search.png"></p>
+<p>After selecting a part a preview of the part is displayed and you can change parameters of the part if needed.<br><img src="images\parts4cad-parameters.png"></p>
+<p>For transferring the selected part to Unity you need to push the button Transfer to CAD (game4automation).</p>
+<h2 id="parts4cad-parts-in-Unity"><a href="#parts4cad-parts-in-Unity" class="headerlink" title="parts4cad parts in Unity"></a>parts4cad parts in Unity</h2><p>After selecting the part in the parts4cad client you get the part imported as an asset into game4automation&gt;parts4cad&gt;Imported. </p>
+<p>Additionally the part is placed into the scene. If you have selected a Gameobject in the scene the part will be placed as a subcomponent to the selected Gameobject.<br><img src="images\parts4cad-unity.png"></p>
+<p>The imported part gets a Parts4Cad scipt attached. This script holds some important information about the imported part. If you select <em>Show Attributes</em> all catalog attributes will be displayed in a text window.<br><img src="images\parts4cad-scipt.png"></p>
+<p>For Updating the part parameters you need to select the <em>Update Part</em> button. This will reopen the parts4cad client with the part and you can update the part. If you select <em>Create New Part</em> a new part will be inserted into the scene.</p>
+<h2 id="parts4cad-uninstallation"><a href="#parts4cad-uninstallation" class="headerlink" title="parts4cad uninstallation"></a>parts4cad uninstallation</h2><p>For uninstalling parts4cad you need to delete in the <em>StreamingAssets</em> folder the folder <em>parts4cad</em>. Additionally you need to delete the folder <em>game4automation&gt;parts4cad</em>.</p>
+
+	  <br>
+
+	  <p><font size="1">&copy; 2019 in2Sight GmbH <a href="https://game4automation.com"> https://game4automation.com </a> - All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including printing, saving, photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher.</font></p>
+    </div>
+	
+  </div>
+  <div class="switch-page">
+    
+    
+  </div>
+</body>
+</html>

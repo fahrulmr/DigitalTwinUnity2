@@ -1,0 +1,3 @@
+   This product bundles Sharp7,  Copyright (C) 2016 Davide Nardella. It was
+   individually licensed from Davide Nardella to in2sight GmbH under the Apache 2.0 license.
+   For details on Sharp7 see http://snap7.sourceforge.net/ 

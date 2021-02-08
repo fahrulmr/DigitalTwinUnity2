@@ -1,0 +1,38 @@
+ Game4Automation Framework for Unity
+ Copyright 2019 in2sight GmbH (https://game4automation.com)
+
+This asset is governed by the Asset Store EULA; however, the following components are governed by the licenses indicated below:
+
+  
+A)   QuicktToggle, copyright SubjectNerd,
+     which is available under MIT license.
+     For details see https://github.com/SubjectNerd-Unity/QuickToggle
+     
+B)   Sharp7,  copyright Davide Nardella. It was
+     individually licensed from Davide Nardella to in2sight GmbH under the Apache 2.0 license.
+     For details on Sharp7 see http://snap7.sourceforge.net/ 
+     
+C)   SpaceNavigator, copyright Patrick Hogenboom. It is available on Github under
+     https://github.com/PatHightree/SpaceNavigator
+     
+D)   UnityRuntimeInspector, copyright Süleyman Yasir KULA,
+     which is available under MIT license.
+     For details see UnityRuntimeInspector https://github.com/yasirkula/UnityRuntimeInspector
+     
+E)   NaughtyAttributes, copyright Denis Rizov,
+     which is available under MIT license.
+     For details see https://github.com/dbrizov/NaughtyAttributes
+     
+F)   Ionic.Zip, copyright Peter Dolkens,
+     which is available under Microsoft Public License (Ms-PL).
+     For details see https://www.nuget.org/packages/Ionic.Zip/
+               
+G)   Surge Framework, copyright Bob Berkebile - pixelplacement.com   
+     which is available under MIT license
+     
+H)   (Only part of Game4Automation Professional) RoboDK-API, copyright RoboDK Inc. It is available on Github under
+     https://github.com/RoboDK/RoboDK-API
+     
+I)   (Only part of Game4Automation Professional) thremf, copyright IxMilia,
+     which is available under MIT license.
+     For details see  https://github.com/ixmilia/threemf

@@ -1,0 +1,14 @@
+{
+    "name": "game4automation.parts4cad",
+    "references": [
+        "game4automation.tools.naughtyattributes"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
