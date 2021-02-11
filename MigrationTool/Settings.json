@@ -1,0 +1,32 @@
+{
+  "ThreadWaitTime": 300,
+  "RecursionDepth": 6,
+  "IsListOrArrayRegex": {
+    "Pattern": "(.*?(?=\\[\\]))|((?<=\\[\\[).*?(?=,))",
+    "Options": 8
+  },
+  "RegexGuid": {
+    "Pattern": "(?<=guid: )[A-z0-9]*",
+    "Options": 8
+  },
+  "RootDirectory": "C:\\Users\\USER\\Desktop\\develop\\DigitalTwinUnity2",
+  "RelativeExportPath": "/MigrationTool/Exports/ProjectIDs.json",
+  "RelativeScriptMappingPath": "/MigrationTool/Exports/GeneratedMappings.json",
+  "RelativeLogPath": "/MigrationTool/Exports/Migration.log",
+  "RelativeConstantsPath": "/MigrationTool/Settings.json",
+  "RelativeCustomLogicPath": "/Assets/Plugins/PREspective/MigrationTool/CustomLogic.dll",
+  "IndentJson": "Indented",
+  "MonoBehaviourFieldExclusionList": [
+    "m_ObjectHideFlags",
+    "m_CorrespondingSourceObject",
+    "m_PrefabInstance",
+    "m_PrefabAsset",
+    "m_GameObject",
+    "m_Enabled",
+    "m_EditorHideFlags",
+    "m_Script",
+    "m_Name",
+    "m_EditorClassIdentifier"
+  ],
+  "Branch": "VERSION"
+}
